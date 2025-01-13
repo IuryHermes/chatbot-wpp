@@ -1,0 +1,57 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "descricao": "Olá! Bem-vindo à Dentare Odontologia. Como posso ajudá-lo hoje?"
+    }
+  ],
+  "opcao": [
+    {
+      "id": 1,
+      "menuId": 1,
+      "descricao": "Localização e Horários 📍⏰"
+    },
+    {
+      "id": 2,
+      "menuId": 1,
+      "descricao": "Planos e Convênios 💳✅"
+    },
+    {
+      "id": 3,
+      "menuId": 1,
+      "descricao": "Agendar Consulta 📅🕘"
+    }
+  ],
+  "resposta": [
+    {
+      "id": 1,
+      "menuId": 1,
+      "opcaoId": 1,
+      "descricao": "Nosso consultório está localizado na Rua Exemplo, 123. Funcionamos de segunda a sexta, das 8h às 18h."
+    },
+    {
+      "id": 2,
+      "menuId": 1,
+      "opcaoId": 2,
+      "descricao": "Trabalhamos com os planos: Plano A e Plano B, e aceitamos os convênios Convênio X e Convênio Y."
+    },
+    {
+      "id": 3,
+      "menuId": 1,
+      "opcaoId": 3,
+      "descricao": "Para agendar sua consulta, por favor, informe seu nome completo, a melhor data e horário."
+    },
+    {
+      "id": 4,
+      "menuId": 1,
+      "opcaoId": 4,
+      "descricao": "Atendimento finalizado. Agradecemos pelo contato!"
+    }
+  ],
+  "qrcode": [
+    {
+      "id": 1,
+      "descricao": "data:image/png;base64,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"
+    }
+  ]
+}

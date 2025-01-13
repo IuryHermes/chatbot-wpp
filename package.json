@@ -1,8 +1,30 @@
 {
+  "name": "chatbot",
+  "version": "1.0.0",
+  "author": {
+    "name": "Omar Martins, Iury Hermes",
+    "url": "https://github.com/arondightt, https://github.com/IuryHermes"
+  },
   "dependencies": {
-    "express": "^4.21.2",
+    "chatbot": "file:",
+    "http-server": "^14.1.1",
+    "json-server": "^0.17.3",
     "moment-timezone": "^0.5.45",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": ""
-  }
+    "qrcode": "^1.5.4",
+    "whatsapp-web.js": "^1.18.5"
+  },
+  "scripts": {
+    "db": "json-server --watch db.json --port 3001",
+    "start": "node src/chatbot.js",
+    "http": "http-server pages -p 3003"
+  },
+  "keywords": [
+    "chatbot",
+    "whatsapp",
+    "json-server",
+    "rest-api",
+    "open-source",
+    "nodejs"
+  ],
+  "license": "MIT"
 }
